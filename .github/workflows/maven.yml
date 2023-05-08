@@ -31,7 +31,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Deploy Docker image
       with:
-          image: ieg00joao/aula_maven
+          image: ${{ secrets.docker_usuario }}
           tags: 1.0
           registry: docker.io
           dockerfile: dockerfile

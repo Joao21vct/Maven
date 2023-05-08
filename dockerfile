@@ -1,2 +1,3 @@
 FROM openjdk
-WORKDIR 
+WORKDIR target
+ADD target/. .

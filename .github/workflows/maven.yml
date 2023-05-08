@@ -36,4 +36,4 @@ jobs:
           registry: docker.io
           dockerfile: dockerfile
           username: João
-          password: ${{ secrets.DOCKER_SENHA }}
+          password: ${{ secrets.docker_senha }}

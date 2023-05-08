@@ -31,9 +31,9 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Deploy Docker image
       with:
-          image: Joao
+          image: aula_maven
           tags: 1.0
           registry: docker.io
           dockerfile: dockerfile
-          username: ieg00joao/aula_maven
+          username: ieg00joao
           password: Bolt200621

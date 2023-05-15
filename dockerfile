@@ -1,3 +1,3 @@
 FROM openjdk
-WORKDIR target
+WORKDIR target/classes/org/example
 ADD target/. .
